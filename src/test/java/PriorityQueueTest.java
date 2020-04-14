@@ -30,7 +30,7 @@ public class PriorityQueueTest {
 
     @Parameterized.Parameters
     public static Collection addedQueue() {
-        Object[] obj1 = {2, 2, 3, 4, 5};
+        Object[] obj1 = {1, 2, 3, 4, 5};
         Object[] obj2 = {1, 1, 1, 1, 1};
         Object[] obj3 = {0, 1, 2, 3, 1000000};
         Object[] obj4 = {-10, 0, 27, 100, 567890};
